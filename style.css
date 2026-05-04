@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+body {
+    
+      background-color: #FFFEE6;
+      color: #561F1F;
+    }
+     header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background-color: #1a1a1a;
+    }
+  .osnova {
+      background-image: url('https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1200');
+      background-size: cover;
+      background-position: center;
+      min-height: 320px;
+      display: flex;
+      align-items: center;
+      padding: 60px 50px;
+    }
+    nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+nav a:hover {
+    color: #E9BD8C;
+}
+.osnova {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=2072&auto=format&fit=crop'); /* Фонове фото хліба */
+    background-size: cover;
+    background-position: center;
+}
